@@ -1,0 +1,168 @@
+.App {  
+  
+  background-color: rgb(29 17 24);
+  min-height: 100vh;   
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  max-width: 90%;
+
+  
+}
+
+
+.navbar {
+  background-image: url("./images/fill.png");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;  
+
+}
+@media screen and (max-width: 600px) {
+  .App {
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;
+  }
+}
+
+.App .logo{
+  
+  opacity: 1;
+  
+  width: 100%;
+  
+  margin-bottom: 10px;
+
+
+  
+
+}
+
+.App .logo-small{
+  
+  opacity: 1;
+  max-width: 400px;
+  width: 100%;
+  margin-bottom: 50px;
+
+
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+
+.App-header {
+  background-color: rgb(29 17 24);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes backgroud-fade {
+  from {opacity: 0;
+  width: 20%;}
+  to {opacity: 1;
+  width: 100%;
+  }
+}
+
+
+
+.post {
+  text-align: left;
+  padding: 20px;
+  max-width: 100% !important;
+  width: 100% !important;
+  color:rgb(16, 126, 91);
+  font-style: normal;
+ 
+}
+
+.post img{
+  width: 100%;
+}
+
+.post .post-body img{
+   display: none;
+}
+
+
+  .post .post-body {
+    /* font-weight: 400; */
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 16px;}
+
+
+.container{
+  width: 100% !important;
+}
+
+
+body {
+  background-color:rgb(16, 126, 91) !important;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.maintitle {
+  font-size: 6rem;
+  font-weight: 800;
+  color: #000000;
+  text-shadow: 2px 2px #fad94a;
+}
+
+.post-title {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #f9c21d;
+  
+}
+
+.post .post-body a {
+  color: #f9c21d !important;
+
+}
+
+.post .row{
+  width: 100% !important;
+  max-width: 100%;
+}
+
+.post .post-body {
+  font-weight: 600;
+  height: 10px;
+
+}
+
+
+
+
+
+
+
+
+
