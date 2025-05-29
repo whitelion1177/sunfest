@@ -36,7 +36,7 @@ export default function Posts(props) {
 
     const getPost = (post) => {
       console.log(post)
-      let image = post._embedded["wp:featuredmedia"] ? post._embedded["wp:featuredmedia"][0].media_details.sizes.medium.source_url : ""
+      let image = post._embedded["wp:featuredmedia"] ? post._embedded["wp:featuredmedia"][0].media_details.sizes.large.source_url : ""
         return <PostCard link={post.link} content={post.content.rendered}  title={post.title.rendered} imageUrl={image} ></PostCard>
 
     }

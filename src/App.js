@@ -63,7 +63,11 @@ let edizioni = [
   },{
     year: "2023",
     category : 459,
+  },{
+    year: "2024",
+    category : 460,
   }
+
 
   
 
@@ -95,7 +99,7 @@ function App() {
       <Switch>
         <Route path="/news">
         
-          <Posts category="460"></Posts>
+          <Posts category="461"></Posts>
         </Route>
 
 
@@ -117,7 +121,7 @@ function App() {
 
         <Route path="/">
 
-          <Posts category="460"></Posts>
+          <Posts category="461"></Posts>
           
        
           
